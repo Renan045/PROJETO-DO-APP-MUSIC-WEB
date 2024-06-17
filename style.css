@@ -47,20 +47,20 @@ body {
 }
 
 .container:hover {
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 15px 30px rgba(7, 6, 6, 0.6);
 }
 
 .player-img {
     width: 300px;
     height: 300px;
     position: relative;
-    top: -50px;
+    top: 70px;
     left: 50px;
 }
 
 .player-img img {
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 10px;
     opacity: 0; 
     transition: opacity 0.5s;
 }
@@ -88,7 +88,7 @@ h3 {
 }
 
 .player-progress {
-   background-color: #fff;
+   background-color: #120d0d;
    border-radius: 5px; 
    cursor:pointer; 
    margin-top :40px; 
@@ -117,14 +117,14 @@ h3 {
    display:flex; 
    justify-content :center; 
    position:relative; 
-   top :-15px; 
+   top :10px; 
 }
 
 .fa-solid{
    color:#666; 
    cursor:pointer; 
-   font-size :30px; 
-   margin-right :30px; 
+   font-size :40px; 
+   margin-right :20px; 
    transition :color .3s ease, transform .3s ease; 
 }
 
