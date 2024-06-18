@@ -110,7 +110,7 @@ h3 {
    display:flex; 
    justify-content :space-between; 
    position:relative; 
-   top :-25px; 
+   top :-20px; 
 }
 
 .player-controls{
@@ -121,7 +121,7 @@ h3 {
 }
 
 .fa-solid{
-   color:#666; 
+   color:#2b1111; 
    cursor:pointer; 
    font-size :40px; 
    margin-right :20px; 
@@ -129,7 +129,7 @@ h3 {
 }
 
 .fa-solid:hover{
-   color:#000;
+   color:#0f0d0d;
 }
 
 .play-button{
