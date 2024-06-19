@@ -391,6 +391,48 @@ const songs = [
         cover: 'assets/64.jpg',
         artist: 'TWO Feet &&&',
     },
+    {
+        path: 'music/65.mp3',
+        displayName: 'FORRO E DESMANTELO',
+        cover: 'assets/65.jpg',
+        artist: 'MTG &&&',
+    },
+    {
+        path: 'music/66.mp3',
+        displayName: 'SONHO DELA',
+        cover: 'assets/66.jpg',
+        artist: 'Country &&&',
+    },
+    {
+        path: 'music/67.mp3',
+        displayName: 'FALTA DO QUE',
+        cover: 'assets/67.jpg',
+        artist: 'LUAN PEREIRA & MURILORUF &&&',
+    },
+    {
+        path: 'music/68.mp3',
+        displayName: 'CORTANDO AS BR',
+        cover: 'assets/68.jpg',
+        artist: 'FIDUMA & JECA &&&',
+    },
+    {
+        path: 'music/69.mp3',
+        displayName: 'AI EU CHOREI',
+        cover: 'assets/69.jpg',
+        artist: 'Cleito & Romario &&&',
+    },
+    {
+        path: 'music/70.mp3',
+        displayName: 'MAGICA',
+        cover: 'assets/70.jpg',
+        artist: 'HILHERME & BENUTO &&&',
+    },
+    {
+        path: 'music/71.mp3',
+        displayName:'OS KEP',
+        cover: 'assets/71.jpg',
+        artist: 'KAKA &&&',
+    },
     
 ];
 
