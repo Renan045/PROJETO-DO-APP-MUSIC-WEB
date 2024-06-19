@@ -16,13 +16,13 @@ const songs = [
     {
         path:"music/1.mp3",
         displayName: 'Sem Direitos autorais',
-        cover: 'assets1.jpg',
+        cover: 'music/1.jpg',
         artist: 'MUSIC NC &&&',
     },
     {
         path: 'music/2.mp3',
         displayName: 'No limits',
-        cover: 'assets/2.jpg',
+        cover: 'music/2.jpg',
         artist: 'CN MUSICAS &&&',
     },
     {
