@@ -11,12 +11,14 @@ const image = document.getElementById('cover'),
     background = document.getElementById('bg-img');
 
 const music = new Audio();
+const nuberImg = 4;
+const rotaImg = `./images/images ${nuberImg}.jpeg`;
 
 const songs = [
     {
         path:"music/1.mp3",
         displayName: 'Sem Direitos autorais',
-        cover: 'music/1.jpg',
+        cover: rotaImg,
         artist: 'MUSIC NC &&&',
     },
     {
