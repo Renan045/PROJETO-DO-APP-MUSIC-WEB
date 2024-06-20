@@ -24,7 +24,7 @@ const songs = [
     {
         path: 'music/2.mp3',
         displayName: 'No limits',
-        cover: 'music/2.jpg',
+        cover: './imeges/imeges 4.jpg',
         artist: 'CN MUSICAS &&&',
     },
     {
