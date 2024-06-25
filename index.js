@@ -83,11 +83,11 @@ const songs = [
         path: 'music/12.mp3',
         displayName: 'New Era',
         cover: 'assets/12.jpg',
-        artist: 'Crusadope &&&',https://github.com/Renan045/PROJETO-DO-APP-MUSIC-WEB.git
+        artist: 'Crusadope &&&',
         cover: 'assets/13.jpg',
         artist: 'TheFatRat & Anjulie &&&',
     },
-    {https://github.com/Renan045/PROJETO-DO-APP-MUSIC-WEB.git
+    {
         artist:'Diamond Eyess &&&',
     },
     {
@@ -97,7 +97,7 @@ const songs = [
         artist: 'Jack Spenser & Axell 4X &&&',
     },
     {
-        path: 'music/16.mp3',https://github.com/Renan045/PROJETO-DO-APP-MUSIC-WEB.git
+        path: 'music/16.mp3',
         displayName: 'Dubstep',
         cover: 'assets/17.jpg',
         artist: 'Benjamin tissot &&&',
@@ -105,11 +105,11 @@ const songs = [
     {
         path: 'music/18.mp3',
         displayName: 'Mortals',
-        cover: 'assets/18.jpg',https://github.com/Renan045/PROJETO-DO-APP-MUSIC-WEB.git
+        cover: 'assets/18.jpg',
         artist: 'Warriyo &&&',
     },
     {
-        path: 'music/19.mp3',https://github.com/Renan045/PROJETO-DO-APP-MUSIC-WEB.git
+        path: 'music/19.mp3',
         cover: 'assets/19.jpg',
         artist: 'CN MUSICAS &&&',
     },
