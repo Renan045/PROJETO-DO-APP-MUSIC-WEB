@@ -83,11 +83,16 @@ const songs = [
         path: 'music/12.mp3',
         displayName: 'New Era',
         cover: 'assets/12.jpg',
+    },    
+    {
         artist: 'Crusadope &&&',
         cover: 'assets/13.jpg',
         artist: 'TheFatRat & Anjulie &&&',
     },
     {
+        path: 'music/16.mp3',
+        displayName: 'Dubstep',
+        cover: 'assets/16.jpg',
         artist:'Diamond Eyess &&&',
     },
     {
@@ -99,7 +104,7 @@ const songs = [
     {
         path: 'music/16.mp3',
         displayName: 'Dubstep',
-        cover: 'assets/17.jpg',
+        cover: 'assets/16.jpg',
         artist: 'Benjamin tissot &&&',
     },
     {
