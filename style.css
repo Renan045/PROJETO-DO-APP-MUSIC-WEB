@@ -88,7 +88,7 @@ h3 {
 }
 
 .player-progress {
-   background-color: #120d0d;
+   background-color: #ded6d6;
    border-radius: 5px; 
    cursor:pointer; 
    margin-top :40px; 
@@ -121,7 +121,7 @@ h3 {
 }
 
 .fa-solid{
-   color:#17bb25; 
+   color:#09090a; 
    cursor:pointer; 
    font-size :40px; 
    margin-right :20px; 
