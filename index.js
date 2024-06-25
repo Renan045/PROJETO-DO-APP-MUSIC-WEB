@@ -34,9 +34,7 @@ const songs = [
         artist: 'Alan Walker &&&',
     },
     {
-        path: 'music/4.mp3',
-        displayName: 'Yellow',
-        cover: 'assets/4.jpg',
+        path: 'music/4.mp3https://github.com/Renan045/PROJETO-DO-APP-MUSIC-WEB.gitg',
         artist: 'Horusiiii &&&',
     },
     {
@@ -85,18 +83,11 @@ const songs = [
         path: 'music/12.mp3',
         displayName: 'New Era',
         cover: 'assets/12.jpg',
-        artist: 'Crusadope &&&',
-    },
-    {
-        path: 'music/13.mp3',
-        displayName: 'Close',
+        artist: 'Crusadope &&&',https://github.com/Renan045/PROJETO-DO-APP-MUSIC-WEB.git
         cover: 'assets/13.jpg',
         artist: 'TheFatRat & Anjulie &&&',
     },
-    {
-        path: 'music/14.mp3',
-        displayName: 'Father',
-        cover: 'assets/14.jpg',
+    {https://github.com/Renan045/PROJETO-DO-APP-MUSIC-WEB.git
         artist:'Diamond Eyess &&&',
     },
     {
@@ -106,13 +97,7 @@ const songs = [
         artist: 'Jack Spenser & Axell 4X &&&',
     },
     {
-        path: 'music/16.mp3',
-        displayName: 'RISE Up',
-        cover: 'assets/16.jpg',
-        artist: 'TheFatRat &&&',
-    },
-    {
-        path: 'music/17.mp3',
+        path: 'music/16.mp3',https://github.com/Renan045/PROJETO-DO-APP-MUSIC-WEB.git
         displayName: 'Dubstep',
         cover: 'assets/17.jpg',
         artist: 'Benjamin tissot &&&',
@@ -120,12 +105,11 @@ const songs = [
     {
         path: 'music/18.mp3',
         displayName: 'Mortals',
-        cover: 'assets/18.jpg',
+        cover: 'assets/18.jpg',https://github.com/Renan045/PROJETO-DO-APP-MUSIC-WEB.git
         artist: 'Warriyo &&&',
     },
     {
-        path: 'music/19.mp3',
-        displayNa: 'Stream',
+        path: 'music/19.mp3',https://github.com/Renan045/PROJETO-DO-APP-MUSIC-WEB.git
         cover: 'assets/19.jpg',
         artist: 'CN MUSICAS &&&',
     },
@@ -427,7 +411,7 @@ const songs = [
         path: 'music/70.mp3',
         displayName: 'MAGICA',
         cover: 'assets/70.jpg',
-        artist: 'HILHERME & BENUTO &&&',
+        artist: 'GuiLHERME & BENUTO &&&',
     },
     {
         path: 'music/71.mp3',
