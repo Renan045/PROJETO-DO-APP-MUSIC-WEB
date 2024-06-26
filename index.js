@@ -420,7 +420,7 @@ const songs = [
         path: 'music/70.mp3',
         displayName: 'MAGICA',
         cover: rotaImg,
-        artist: 'GuiLHERME & BENUTO &&&',
+        artist: 'GUILHERME & BENUTO &&&',
     },
     {
         path: 'music/71.mp3',
