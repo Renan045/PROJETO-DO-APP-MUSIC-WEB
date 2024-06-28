@@ -119,9 +119,33 @@ const songs = [
     },
     {
         path: 'music/16.mp3',
-        displayName: '',
+        displayName: 'Eu quero te Amar na Praia',
         cover: rotaImg,
-        artist: 'Leó e Raphael & LP &&&',
+        artist: 'Natanzin &&&',
+    },
+    {
+        path: 'music/17.mp3',
+        displayName: 'Troca de Calçada',
+        cover: rotaImg,
+        artist: 'Marilia Mendonça &&&',
+    },
+    {
+        path: 'music/18.mp3',
+        displayName: 'Relógio Parado',
+        cover: rotaImg,
+        artist: 'Diogo & Arnaldo &&&',
+    },
+    {
+        path: 'music/19.mp3',
+        displayName: 'Pra sempre se Ser',
+        cover: rotaImg,
+        artist: 'Ana Castelo &&&',
+    },
+    {
+        path: 'music/20.mp3',
+        displayName: 'FREE FIRE',
+        cover: rotaImg,
+        artist: 'MUSIC NC &&&',
     },
     {
         path: 'music/21.mp3',
