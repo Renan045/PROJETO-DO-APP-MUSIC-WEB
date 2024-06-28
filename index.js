@@ -11,7 +11,7 @@ const image = document.getElementById('cover'),
     background = document.getElementById('bg-img');
 
 const music = new Audio();
-const nuberImg = 4;
+const nuberImg = 1;
 const rotaImg = `./images/images ${nuberImg}.jpeg`;
 
 const Img = 23;
@@ -162,13 +162,13 @@ const songs = [
     {
         path: 'music/23.mp3',
         displayName: 'FALTA DO QUE',
-        cover: rotaImggg,
+        cover: rotaImgg,
         artist: 'LUAN PEREIRA & MURILORUF &&&',
     },
     {
         path: 'music/24.mp3',
         displayName: 'CORTANDO AS BR',
-        cover: rotaImgg,
+        cover: rotaImggg,
         artist: 'FIDUMA & JECA &&&',
     },
     {
