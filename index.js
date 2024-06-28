@@ -14,16 +14,16 @@ const music = new Audio();
 const nuberImg = 4;
 const rotaImg = `./images/images ${nuberImg}.jpeg`;
 
-const Img = 22;
+const Img = 23;
 const rotaImgg= `./images/images ${Img}.jpg`;
 
-const Imgg = 23;
+const Imgg = 24;
 const rotaImggg= `./images/images ${Imgg}.jpg`;
 
-const Imggg = 24;
+const Imggg = 25;
 const rotaImgggg= `./images/images ${Imggg}.jpg`;
 
-const Imgggg = 25;
+const Imgggg = 26;
 const rotaImggggg= `./images/images ${Imgggg}.jpg`;
 
 const songs = [
@@ -37,7 +37,7 @@ const songs = [
         path: 'music/2.mp3',
         displayName: 'Digo ou Não Digo',
         cover: rotaImg,
-        artist: 'João Gomes &&&',
+        artist: 'João Gomes & L7NNON &&&',
     },
     {
         path: 'music/3.mp3',
@@ -89,7 +89,7 @@ const songs = [
     },
     {
         path: 'music/11.mp3',
-        displayName: 'Pele macia ai carne de caju',
+        displayName: 'Morena Tropical',
         cover: rotaImg,
         artist: 'Véi da midia &&&',
     },
