@@ -14,6 +14,15 @@ const music = new Audio();
 const nuberImg = 4;
 const rotaImg = `./images/images ${nuberImg}.jpeg`;
 
+const Img = 68;
+const rotaImgg= `./images/images ${Img}.jpg`;
+
+const Imgg = 67;
+const rotaImggg= `./images/images ${Imgg}.jpg`;
+
+const Imggg = 69;
+const rotaImgggg= `./images/images ${Imggg}.jpg`;
+
 const songs = [
     {
         path:"music/1.mp3",
@@ -401,19 +410,19 @@ const songs = [
     {
         path: 'music/67.mp3',
         displayName: 'FALTA DO QUE',
-        cover: rotaImg,
+        cover: rotaImggg,
         artist: 'LUAN PEREIRA & MURILORUF &&&',
     },
     {
         path: 'music/68.mp3',
         displayName: 'CORTANDO AS BR',
-        cover: rotaImg,
+        cover: rotaImgg,
         artist: 'FIDUMA & JECA &&&',
     },
     {
         path: 'music/69.mp3',
         displayName: 'AI EU CHOREI',
-        cover: rotaImg,
+        cover: rotaImgggg,
         artist: 'Cleito & Romario &&&',
     },
     {
