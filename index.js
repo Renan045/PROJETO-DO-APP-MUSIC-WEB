@@ -41,15 +41,15 @@ const songs = [
     },
     {
         path: 'music/3.mp3',
-        displayName: 'Fiorella & Guilherme e Benuto',
+        displayName: 'Namorando Sem Namorar',
         cover: rotaImg,
-        artist: 'Namorando Sem Namorar &&&',
+        artist: 'Fiorella & Guilherme e Benuto &&&',
     },
     {
         path: 'music/4.mp3',
         displayName: 'Sextou com S de Saudade',
         cover: rotaImg,
-        artist: 'TH MUSIC &&&',
+        artist: 'Luiza & Maurilio e Zé neto e cristiano &&&',
     },
     {
         path: 'music/5.mp3',
@@ -182,6 +182,18 @@ const songs = [
         displayName: 'MAGICA',
         cover: rotaImggggg,
         artist: 'GUILHERME & BENUTO &&&',
+    },
+    {
+        path: 'music/27.mp3',
+        displayName: 'Vamo de Pagodin',
+        cover: rotaImg,
+        artist: 'MC Daniel &&&',
+    },
+    {
+        path: 'music/28.mp3',
+        displayName: 'Chinelo de Prego',
+        cover: rotaImg,
+        artist: 'Antony & Gabriel &&&',
     },
     
 ];
