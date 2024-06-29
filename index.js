@@ -107,7 +107,7 @@ const songs = [
     },
     {
         path: 'music/14.mp3',
-        displayName: 'Yellowstpne',
+        displayName: 'Yellowstone',
         cover: rotaImg,
         artist: 'Leó e Raphael & LP &&&',
     },
