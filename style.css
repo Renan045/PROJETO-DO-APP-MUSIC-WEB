@@ -1,137 +1,137 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');                        /* Importa a fonte Ubuntu do Google Fonts */
 
 html {
-    box-sizing: border-box;
+    box-sizing: border-box;                                  /* Define o modelo de caixa para incluir padding e borda nas larguras e alturas */
 }
 
 body {
-    margin: 0;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 12px;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 0;                                                                                            /* Remove a margem padrão do corpo */
+    font-family: 'Ubuntu', sans-serif;                                                                  /* Define a fonte padrão como Ubuntu */
+    font-size: 12px;                                                                                  /* Define o tamanho da fonte como 12px */
+    min-height: 100vh;                                                        /* Define a altura mínima do corpo como 100% da altura da tela */
+    display: flex;                                                                                              /* Usa flexbox para o layout */
+    align-items: center;                                                                          /* Alinha os itens ao centro verticalmente */
+    justify-content: center;                                                                    /* Alinha os itens ao centro horizontalmente */
 }
 
 .background {
-    position: fixed;
-    width: 200%;
-    height: 200%;
-    top: -50%;
-    left: -50%;
-    z-index: -1;
+    position: fixed;                                                                                                /* Define a posição fixa */
+    width: 200%;                                                                                               /* Define a largura como 200% */
+    height: 200%;                                                                                               /* Define a altura como 200% */
+    top: -50%;                                                                                                         /* Move para cima 50% */
+    left: -50%;                                                                                                  /* Move para a esquerda 50% */
+    z-index: -1;                                                                                                /* Define o índice z para -1 */
 }
 
 .background img {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    min-width: 50%;
-    min-height: 50%;
-    filter: blur(15px);
-    -webkit-filter: blur(15px);
-    transform: scale(1.1);
+    position: absolute;                                                                                         /* Define a posição absoluta */
+    margin: auto;                                                                                                     /* Centraliza a imagem */
+    top: 0;                                                                                                          /* Define o topo como 0 */
+    left: 0;                                                                                                     /* Define a esquerda como 0 */
+    bottom: 0;                                                                                             /* Define a parte inferior como 0 */
+    right: 0;                                                                                                     /* Define a direita como 0 */
+    min-width: 50%;                                                                                      /* Define a largura mínima como 50% */
+    min-height: 50%;                                                                                      /* Define a altura mínima como 50% */
+    filter: blur(15px);                                                                                      /* Aplica um filtro de desfoque */
+    -webkit-filter: blur(15px);                                                                  /* Aplica um filtro de desfoque para Webkit */
+    transform: scale(1.1);                                                                                     /* Aumenta a escala da imagem */
 }
 
 .container {
-    background-color: aliceblue;
-    height: 500px;
-    width: 400px;
-    border-radius: 20px;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-    transition: all 0.5s ease;
+    background-color: aliceblue;                                                                   /* Define a cor de fundo como aliceblue */
+    height: 500px;                                                                                             /* Define a altura como 500px */
+    width: 400px;                                                                                             /* Define a largura como 400px */
+    border-radius: 20px;                                                                   /* Define as bordas arredondadas com raio de 20px */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);                                                                     /* Adiciona uma sombra */
+    transition: all 0.5s ease;                                                    /* Adiciona uma transição suave para todas as propriedades */
 }
 
 .container:hover {
-    box-shadow: 0 15px 30px rgba(7, 6, 6, 0.6);
+    box-shadow: 0 15px 30px rgba(7, 6, 6, 0.6);                                       /* Adiciona uma sombra mais escura ao passar o mouse */
 }
 
 .player-img {
-    width: 300px;
-    height: 300px;
-    position: relative;
-    top: 70px;
-    left: 50px;
+    width: 300px;                                                                                             /* Define a largura como 300px */
+    height: 300px;                                                                                             /* Define a altura como 300px */
+    position: relative;                                                                                         /* Define a posição relativa */
+    top: 70px;                                                                                                       /* Move para baixo 70px */
+    left: 50px;                                                                                                  /* Move para a direita 50px */
 }
 
 .player-img img {
-    object-fit: cover;
-    border-radius: 10px;
-    opacity: 0; 
-    transition: opacity 0.5s;
+    object-fit: cover;                                                                                     /* Define para cobrir o contêiner */
+    border-radius: 10px;                                                                   /* Define as bordas arredondadas com raio de 10px */
+    opacity: 0;                                                                                         /* Define a opacidade inicial como 0 */
+    transition: opacity 0.5s;                                                               /* Adiciona uma transição suave para a opacidade */
 }
 
 .player-img:hover img {
-   opacity: 1;
+    opacity: 1;                                                                               /* Define a opacidade como 1 ao passar o mouse */
 }
 
 .player-img img.active {
-   opacity: 1;
+    opacity: 1;                                                                             /* Define a opacidade como 1 para a imagem ativa */
 }
 
- h2, h3 {
-   text-align: center; 
-   font-weight: normal;
-   margin-top: 10px; 
+h2, h3 {
+    text-align: center;                                                                                                /* Centraliza o texto */
+    font-weight: normal;                                                                               /* Define o peso da fonte como normal */
+    margin-top: 10px;                                                                                /* Adiciona uma margem superior de 10px */
 }
 
 h2 {
-   font-size: 25px;
+    font-size: 25px;                                                                                  /* Define o tamanho da fonte como 25px */
 }
 
 h3 {
-   font-size: 18px;
+    font-size: 18px;                                                                                  /* Define o tamanho da fonte como 18px */
 }
 
 .player-progress {
-   background-color: #ded6d6;
-   border-radius: 5px; 
-   cursor:pointer; 
-   margin-top :40px; 
-   margin-left :20px; 
-   margin-right :20px; 
-   height :6px; 
-   width :90%; 
+    background-color: #ded6d6;                                                                       /* Define a cor de fundo como #ded6d6 */
+    border-radius: 5px;                                                                     /* Define as bordas arredondadas com raio de 5px */
+    cursor: pointer;                                                                                           /* Muda o cursor para pointer */
+    margin-top: 40px;                                                                                /* Adiciona uma margem superior de 40px */
+    margin-left: 20px;                                                                             /* Adiciona uma margem à esquerda de 20px */
+    margin-right: 20px;                                                                             /* Adiciona uma margem à direita de 20px */
+    height: 6px;                                                                                                 /* Define a altura como 6px */
+    width: 90%;                                                                                                 /* Define a largura como 90% */
 }
 
-.progress{
-   background-color:#212121; 
-   border-radius :5px; 
-   height :100%; 
-   width :0%; 
-   transition :width .1s linear; 
+.progress {
+    background-color: #212121;                                                                                    /* Define a cor de fundo */
+    border-radius: 5px;                                                                     /* Define as bordas arredondadas com raio de 5px */
+    height: 100%;                                                                                               /* Define a altura como 100% */
+    width: 0%;                                                                                           /* Define a largura inicial como 0% */
+    transition: width 0.1s linear;                                                   /* Adiciona uma transição suave e linear para a largura */
 }
 
-.music-duration{
-   display:flex; 
-   justify-content :space-between; 
-   position:relative; 
-   top :-20px; 
+.music-duration {
+    display: flex;                                                                                              /* Usa flexbox para o layout */
+    justify-content: space-between;                                                                              /* Espaça os itens entre si */
+    position: relative;                                                                                         /* Define a posição relativa */
+    top: -20px;                                                                                                       /* Move para cima 20px */
 }
 
-.player-controls{
-   display:flex; 
-   justify-content :center; 
-   position:relative; 
-   top :10px; 
+.player-controls {
+    display: flex;                                                                                              /* Usa flexbox para o layout */
+    justify-content: center;                                                                                          /* Centraliza os itens */
+    position: relative;                                                                                         /* Define a posição relativa */
+    top: 10px;                                                                                                       /* Move para baixo 10px */
 }
 
-.fa-solid{
-   color:#09090a; 
-   cursor:pointer; 
-   font-size :40px; 
-   margin-right :20px; 
-   transition :color .3s ease, transform .3s ease; 
+.fa-solid {
+    color: #09090a;                                                                                           /* Define a cor como #09090a */
+    cursor: pointer;                                                                                           /* Muda o cursor para pointer */
+    font-size: 40px;                                                                                  /* Define o tamanho da fonte como 40px */
+    margin-right: 20px;                                                                             /* Adiciona uma margem à direita de 20px */
+    transition: color 0.3s ease, transform 0.3s ease;                           /* Adiciona uma transição suave para a cor e a transformação */
 }
 
-.fa-solid:hover{
-   color:#0b0b0b;
+.fa-solid:hover {
+    color: #0b0b0b;                                                                                        /* Muda a cor ao passar o mouse */
 }
 
-.play-button{
-   font-size :44px !important ;
+.play-button {
+    font-size: 44px !important;                                                       /* Define o tamanho da fonte como 44px com importância */
 }
